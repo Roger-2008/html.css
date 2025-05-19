@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midais em html</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+<p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto-p.png" type="image/png"> 
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="image flexivel">
+        
+</p>
+<h1>Reproduzindo audio</h1>
+<p>vamos aprender a reproduzir audio</p>
+<audio preload="metadata" controls loop>
+<source src="media/truckdriving.mp3" type="audio/mpeg">
+<source src="media/truckdriving.ogg" type="audio/ogg">
+<source src="media/truckdriving.wav" type="audio/wav">
+<p>infelizmente seu navegador nao consague reproduzir audio</p>
+<a href="media/truckdriving.mp3">clique aqui para baixar o arquivo MP3</a>
+
+
+</audio>
+</body>
+</html>
