@@ -11,6 +11,9 @@
 body{
   min-height: 80vh;
 background-image: url(https://www.ccvalg.pt/astronomia/galaxias/galaxias_espirais/m31.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
 
 
 }
@@ -80,6 +83,11 @@ main h1 {
 
 
 .coluna1{
+  background-image: url(https://i.pinimg.com/564x/f9/ab/38/f9ab38b5f7d08cf689228d0b879e29ea.jpg);
+
+background-attachment: fixed;
+  
+color: white;
 display:block;
 background-color: rgb(255, 255, 255);
 width: 300px;
@@ -87,26 +95,38 @@ margin-left: 90px;
 padding: 20px;
 text-align: justify;
 border-radius: 10px;
-margin: 10px blue;
+margin: 10px rgb(255, 255, 255);
+font-family:"Barlow Condensed", sans-serif;
+;
 
 
 }
 
 .coluna2{
+  background-image: url(https://spacetoday.com.br/wp-content/uploads/2017/09/m81_colombari_1080c-1024x684.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
 display: block;
+color: white;
 background-color: rgb(255, 255, 255);
 width: 300px;
 margin-left: 100px;
 padding: 20px;
 text-align: justify;
 border-radius: 10px;
-margin: 10px blue;
+margin: 10px rgb(255, 255, 255);
+font-family:"Barlow Condensed", sans-serif;
+;
 
 
 }
 
 .coluna3{
+  background-image: url(https://i.pinimg.com/736x/0d/50/55/0d5055d0b405601fd977220cc0b72832.jpg);
+background-attachment: fixed;
 display: block;
+color: white;
 margin-right: 100px;
 background-color: rgb(255, 255, 255);
 width: 300px;
@@ -114,7 +134,9 @@ margin-left: 100px;
 padding: 20px;
 text-align: justify;
 border-radius: 10px;
-margin: 10px blue;}
+margin: 10px rgb(255, 255, 255);
+  font-family: "Barlow Condensed", sans-serif;
+}
 
 
 
@@ -123,7 +145,7 @@ article h1{
 
 text-align: center;
 font-size: 2em;
-color: rgba(0, 0, 255, 0.342);
+color: rgb(255, 255, 255);
 
 
 
@@ -161,8 +183,31 @@ text-decoration: none;
 }
 
 .p1{
- background-color: white;
+  background-image: url(https://www.correiobraziliense.com.br/cbradar/wp-content/uploads/2025/02/buraco-negro_1740285230669.jpg);
+  background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+  width: 600px;
+  margin: auto;
  text-align: center;
   padding: 10px;
   border-radius: 10px;
+    font-family: "Barlow Condensed", sans-serif;
+
 margin-top: 70px;}
+.p2{
+  background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhbm8lMjBkZSUyMGZ1bmRvJTIwZXN0cmVsYXxlbnwwfHwwfHx8MA%3D%3D);
+background-attachment: fixed;
+background-color: white;
+color: white;
+ text-align: center;
+  padding: 10px;
+  box-shadow: 10px 10px 10px black;
+margin-top: 70px;
+margin-bottom: 80px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+
+
