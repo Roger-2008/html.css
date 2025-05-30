@@ -26,6 +26,8 @@ height: 40px;
 .menu a{
 color: white;
 padding-left: 20px;
+font-size: 1.5em;
+text-decoration: none;
 
 
 
@@ -34,22 +36,7 @@ padding-left: 20px;
 }
 .menu a:hover{
 color: purple;
-text-decoration: underline;
-
-
-
-}
-
-.menu ul {
-    display: flex;
-  text-decoration: none;
-padding-top: 50px;
-height: 20px;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+text-decoration: none;
 
 
 
@@ -60,12 +47,18 @@ height: 20px;
 
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.2em;
+  text-decoration: none;
 }
 
 main{
 background-color: black;
 height: 185px;
 
+}
+
+main a{
+color: black;
+text-decoration: none;
 
 
 
@@ -88,7 +81,7 @@ main h1 {
 
 .coluna1{
 display:block;
-background-color: rgba(255, 255, 255, 0.781);
+background-color: rgb(255, 255, 255);
 width: 300px;
 margin-left: 90px;
 padding: 20px;
@@ -101,7 +94,7 @@ margin: 10px blue;
 
 .coluna2{
 display: block;
-background-color: rgba(255, 255, 255, 0.808);
+background-color: rgb(255, 255, 255);
 width: 300px;
 margin-left: 100px;
 padding: 20px;
@@ -115,7 +108,7 @@ margin: 10px blue;
 .coluna3{
 display: block;
 margin-right: 100px;
-background-color: rgba(255, 255, 255, 0.856);
+background-color: rgb(255, 255, 255);
 width: 300px;
 margin-left: 100px;
 padding: 20px;
@@ -160,3 +153,16 @@ color: purple;
 
 
 }
+footer a{
+color: rgb(123, 176, 255);
+text-decoration: none;
+
+
+}
+
+.p1{
+ background-color: white;
+ text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+margin-top: 70px;}
